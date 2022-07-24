@@ -1,0 +1,26 @@
+{
+	"firstname": "Benedict",
+	"lastname": "Fernando",
+	"skills": ["Full-Stack Web Development", "Backend Web Development", "Frontend Web Development"],
+	"techstacks": ["HTML", "CSS", "JavaScript", "C-Family", "Java", "Python"],
+	"experiences": [
+		{
+			"role": "Full-Stack Web Developer",
+			"company": "XYZ Company",
+			"span": "Jan-Apr 2021"
+		},
+		{
+			"role": "Backend Web Developer",
+			"company": "LMN Company",
+			"span": "May-Aug 2021"		
+		}, 
+		{
+			"role": "Frontend Web Developer",
+			"company": "ABC Company",
+			"span": "Sep-Dec 2021"
+		}
+	],
+	"location": "Metro Manila",
+	"email": "123@gmail.com",
+	"number": "0912-345-6789"
+}
