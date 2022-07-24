@@ -24,8 +24,8 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.load = New System.Windows.Forms.Button()
+        Me.generate = New System.Windows.Forms.Button()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -34,8 +34,8 @@ Partial Class Form1
         Me.TableLayoutPanel1.ColumnCount = 2
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.Button1, 0, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.Button2, 1, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.load, 0, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.generate, 1, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
@@ -44,25 +44,25 @@ Partial Class Form1
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(284, 161)
         Me.TableLayoutPanel1.TabIndex = 0
         '
-        'Button1
+        'load
         '
-        Me.Button1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Button1.Location = New System.Drawing.Point(3, 3)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(136, 155)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Load JSON"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.load.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.load.Location = New System.Drawing.Point(3, 3)
+        Me.load.Name = "load"
+        Me.load.Size = New System.Drawing.Size(136, 155)
+        Me.load.TabIndex = 0
+        Me.load.Text = "Load JSON"
+        Me.load.UseVisualStyleBackColor = True
         '
-        'Button2
+        'generate
         '
-        Me.Button2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Button2.Location = New System.Drawing.Point(145, 3)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(136, 155)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Generate Resume"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.generate.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.generate.Location = New System.Drawing.Point(145, 3)
+        Me.generate.Name = "generate"
+        Me.generate.Size = New System.Drawing.Size(136, 155)
+        Me.generate.TabIndex = 1
+        Me.generate.Text = "Generate Resume"
+        Me.generate.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -80,6 +80,6 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents load As Button
+    Friend WithEvents generate As Button
 End Class
